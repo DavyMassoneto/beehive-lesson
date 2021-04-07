@@ -51,5 +51,10 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "lint-staged": {
+    "*.{js,json,css,scss,md,ts,html,graphql}": [
+      "yarn format --uncommited"
+    ]
   }
 }
