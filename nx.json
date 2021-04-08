@@ -1,8 +1,4 @@
 {
-  "npmScope": "beehive-lesson",
-  "affected": {
-    "defaultBase": "master"
-  },
   "implicitDependencies": {
     "workspace.json": "*",
     "package.json": {
@@ -14,6 +10,10 @@
     ".eslintrc.json": "*",
     "nx.json": "*"
   },
+  "affected": {
+    "defaultBase": "master"
+  },
+  "npmScope": "beehive-lesson",
   "tasksRunnerOptions": {
     "default": {
       "runner": "@nrwl/nx-cloud",
@@ -25,5 +25,12 @@
       }
     }
   },
-  "projects": {}
+  "projects": {
+    "api": {
+      "tags": []
+    },
+    "core": {
+      "tags": []
+    }
+  }
 }
